@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+/*header*/
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #386576;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header img{
+    width: 171px;
+    height: 30px;
+    margin-left: 114px;
+}
+
+header a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    
+    margin-right: 183px;
+    margin-left: -147px;
+}
+
+
+.section6{
+    height: 600px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),
+                url(https://personalblogweb-himanshu-v3pu.onrender.com/assets/images/photopix.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+
+.section6 .main{
+    height: 330px;
+    width: 563px;
+/*    background-color: red;*/
+    position: absolute;
+    top: 112px;
+    left: 391px;
+    border-radius: 9px;
+    box-shadow: 1px 1px 7px #666;
+    background: rgb(37, 35, 35);
+    padding: 20px;
+}
+
+.section6 .text h2{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.section6 .text h2 span{
+    color: #f79d16;
+}
+
+.section6 .text p{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 6px;
+}
+
+.section6 .email input{
+    background-color: white;
+    height: 33px;
+    width: 533px;
+    padding-left: 7px;
+    margin-left: 10px;
+    font-size: 19px;
+    margin-top: 37px;
+    border:0;
+    outline: 0;
+    border-radius: 9px;
+}
+
+.password input{
+    background-color: rgb(72, 67, 67);
+    height: 33px;
+    width: 533px;
+    padding-left: 7px;
+    margin-left: 10px;
+    font-size: 19px;
+    margin-top: 22px;
+    border:0;
+    outline: 0;
+    border-radius: 9px;
+}
+
+.section6 .login{
+    text-align: center;
+    margin-top: 25px;
+}
+.section6 .login button{
+    background-color: orange;
+    border: none;
+    border-radius: 19px;
+    height: 39px;
+    width: 101px;
+}
+
+.section6 .login button a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.section6 .login button:hover{
+    background-color: #14e5be;
+    
+}
+
+.section6 .other{
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    margin-top: 20px;
+}
+
+.other h5{
+    font-size: 16px;
+    color: white;
+
+}
+
+.section6 .other a{
+    text-decoration: none;
+    color: #f79d16;
+    font-size: 16px;
+}
+
+.section6 .other a:hover{
+    color: yellow;
+}
+
+
+/*footer*/
+
+footer{
+    width: 100%;
+    height: 320px;
+    background-color: #001f50;
+    text-align: center;
+
+
+}
+
+footer h1{
+    color: whitesmoke;
+    font-size: 48px;
+    padding-top: 40px;
+}
+footer p{
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.s{
+       width: 220px;
+    height: 59px;
+    color: whitesmoke;
+    background-color: #154e64;
+    font-size: 40px;
+    margin-right: 46px;
+    margin-top: 38px;
+}
+
+.s i:hover{
+    color:#f79d16 ;
+}
+
+
+
+.last{
+    text-align: center;
+    color: whitesmoke;
+    background-color: #154e64;
+    width: 100%;
+    height: 60px;
+    letter-spacing: 1px;
+    line-height: 59px;
+}
+
+.last a{
+/*    text-decoration: none;*/
+    color: #f79d16 ;
+   
+}
+
+.last a:hover{
+    color: blueviolet;
+
+}

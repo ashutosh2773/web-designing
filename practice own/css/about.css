@@ -1,0 +1,204 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+/*header*/
+.header{
+	background: white;
+	color: pink;
+/*	border: 5px solid silver;*/
+	width: 100%;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 179px;
+	position: fixed;
+	top: 0px;
+
+}
+
+.header img{
+	width: 150px;
+	height: 29px;
+}
+
+.header a{
+	font-size: 16px; 
+	margin: 0px 5px;
+	color: #d70f64;
+	text-decoration: none;
+/*	font-family: cursive;*/
+	margin: 0px 0px 0px 20px;
+}
+
+
+.about{
+	background: url('https://www.foodpanda.com/wp-content/uploads/2021/01/foodpanda-italian-blue-scaled.jpg');
+	width: 100%;
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.about h1{
+	font-size: 40px;
+	text-align: center;
+	padding: 200px 0px 0px 0px;
+	color: white;
+	letter-spacing: 3px;
+
+}
+
+.p{
+	text-align:center;
+	background: #95929242;
+	width: 100%;
+	height: 100px;
+	padding: 25px 0px 0px 0px;
+	font-size: 17px;
+	font-family: system-ui;
+    /* letter-spacing: 3px; */
+    line-height: 1.8;
+}
+
+.how{
+     font-size: 20px;
+     height: 300px;
+     width: 100%;
+/*     background: silver;*/
+     padding-left: 80px;
+
+}
+
+.how h5{
+	font-size: 27px;
+	padding-top: 90px;
+	color: #d70f64;
+
+}
+
+.a h6{
+	font-size: 20px;
+	float: left;
+	padding-top: 40px;
+	word-spacing: 30px;
+	
+
+}
+
+.a{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-right: 360px;
+}
+
+.mission{
+	background: #d70f64;
+    width: 100%;
+    height: 350px;
+    color: white;
+    padding: 70px 105px 91px 94px;
+    font-size: 17px;
+    line-height: 1.9;
+    font-family: system-ui;
+}
+
+
+.info{
+/*	background: silver;*/
+	width: 100;
+	height: 350px;
+	padding: 72px 100px 48px 92px;
+}
+
+.info h3{
+	color: #d70f64;
+	font-size: 24px;
+
+}
+
+.info p{
+	font-size: 14px;
+	letter-spacing: 1px;
+    font-family: system-ui;
+}
+
+
+.last{
+	background:#f9f7f2;
+	width: 100%; 
+	height: 270px;
+	border: 1px solid #e7e7e7;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 48px 37px 0px 37px ;
+	
+}
+
+.boxes{
+	background: white;
+	width: 253px;
+    height: 66px;
+    display: flex;
+/*    justify-content: space-evenly;*/
+    padding-left: 18px;
+    padding-top: 6px;
+    font-size: 16px;
+    border: 1px solid #e7e7e7 ;
+
+}
+
+.boxes img{
+	width: 50px;
+	height: 64px;
+}
+
+.boxes span{
+	color: #d70f64 ;
+	font-family: system-ui;
+	font-size: 23px;
+}
+
+.boxes h3{
+	font-family: system-ui;
+	font-size: 16px;
+}
+
+
+
+.logo {
+	background: white;
+	width: 100%;
+	height: 140px;
+	display: flex;
+	justify-content: space-between;
+	align-items:center ;
+    width: 100%px;
+    height: 150px;
+    padding: 0px 80px 0px 87px;
+}
+.logoimg{
+	width: 160px;
+	height: 45px;
+}
+
+.bottom{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 71px 0px 81px;
+    margin: -55px 5px;
+}
+
+.bottom a{
+	margin: 0px 5px;
+	font-size: 14px;
+	text-decoration: none;
+	color: black;
+}

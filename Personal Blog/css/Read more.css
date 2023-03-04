@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+/*header*/
+header{
+    width: 100%; 
+    height: 60px;
+    background-color: #386576;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header img{
+    width: 171px;
+    height: 30px;
+    margin-left: 114px;
+}
+
+header a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    
+    margin-right: 183px;
+    margin-left: -147px;
+}
+
+
+.section7{
+    width: 100%;
+    height: 810px;
+    position: relative;
+    padding: 16px;
+}
+
+.section7 .heading{
+    position: absolute;
+    width: 640px;
+    height: 150px;
+/*    border: 2px solid;*/
+    left: 100px;
+    top: 30px;
+    padding: 20px;
+}
+
+.section7 .heading h1{
+    font-size: 36px;
+}
+
+.section7 .img{
+    position: absolute;
+    width: 640px;
+    height: 426px;
+/*    border: 2px solid;*/
+    left: 100px;
+    top: 150px;
+
+}
+
+.section7 .img img{
+    height: 421px;
+    width: 635px;
+}
+
+.section7  .text{
+    position: absolute;
+    width: 730px;
+    height: 200px;
+/*    border: 2px solid;*/
+    left: 100px;
+    top: 600px;
+    letter-spacing: 3px;
+    font-size: 18px;
+    word-spacing: 3px;
+    padding: 5px;
+}
+
+
+.section7 .blogs{
+    position: absolute;
+    right: 49px;
+    top: 45px;
+    height: 600px;
+    width: 400px;
+/*    border: 2px solid;*/
+
+
+}
+
+.section7 .head{
+    background-color: #386576;
+    color: whitesmoke;
+    padding: 3px 21px 8px 16px;
+    font-size: 13px;
+} 
+
+.section7 .foot{
+    background-color: #386576;
+    color: whitesmoke;
+    padding: 3px 21px 8px 16px;
+    font-size: 13px;
+}
+
+.section7 .images {
+    width:390px ;
+    height:130px ;
+/*    border: 2px solid;*/
+    display: flex;
+    padding-top: 5px;
+    padding-left: 5px;
+
+
+
+}
+.section7 .images img{
+    height: 115px;
+    width: 100px;
+    margin-right: 22px;
+}
+
+.section7 .images h4{
+    font-size: 23px;
+}
+
+
+
+/*footer*/
+
+footer{
+    width: 100%;
+    height: 320px;
+    background-color: #001f50;
+    text-align: center;
+
+
+}
+
+footer h1{
+    color: whitesmoke;
+    font-size: 48px;
+    padding-top: 40px;
+}
+footer p{
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.s{
+       width: 220px;
+    height: 59px;
+    color: whitesmoke;
+    background-color: #154e64;
+    font-size: 40px;
+    margin-right: 46px;
+    margin-top: 38px;
+}
+
+.s i:hover{
+    color:#f79d16 ;
+}
+
+
+
+.last{
+    text-align: center;
+    color: whitesmoke;
+    background-color: #154e64;
+    width: 100%;
+    height: 60px;
+    letter-spacing: 1px;
+    line-height: 59px;
+}
+
+.last a{
+/*    text-decoration: none;*/
+    color: #f79d16 ;
+   
+}
+.last a:hover{
+    color: blueviolet;
+   
+}

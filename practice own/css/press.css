@@ -1,0 +1,177 @@
+ *{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+/*header*/
+.header{
+	background: white;
+	color: pink;
+/*	border: 5px solid silver;*/
+	width: 100%;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 179px;
+	position: fixed;
+	top: 0px;
+
+}
+
+.header img{
+	width: 150px;
+	height: 29px;
+}
+
+.header a{
+	font-size: 16px;
+	margin: 0p0 5px;
+	color: #d70f64;
+	text-decoration: none;
+/*	font-family: cursive;*/
+	margin: 0px 0px 0px 20px;
+}
+
+.banner{
+	background: url(https://www.foodpanda.com/wp-content/uploads/2020/12/Carousel-Image-11-scaled.jpg);
+	width: 100%;
+	height: 650px;
+	background-size: cover;
+	background-position: top;
+	text-align: center;
+	padding: 300px 0px 0px 0px;
+	color: white;
+	line-height: 50px;
+}
+
+
+.banner span{
+	font-size: 45px;
+	font-family: system-ui;
+
+}
+
+.banner p{
+	font-family: system-ui;
+	font-size: 27px;
+}
+
+
+.stories{
+	width: 100%;
+	height: 58px;
+/*	background: silver;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 110px 0px 96px;
+	
+}
+
+.stories a{
+	font-size: 16px;
+	font-family: system-ui;
+	text-decoration: none;
+	color: black;
+	padding: 0px 10px;
+}
+
+
+.blockA{
+	width: 400px;
+	height: 520px;
+	background: #ffffff;
+	/*padding-left: 50px;
+	padding-top: 40px;*/
+/*	border: 1px solid silver;*/
+	border-radius: 14px;
+    box-shadow: 0px 0px 175px -73px;
+    float: left;
+    margin: 10px;
+}
+
+
+
+
+.blockA img{
+	width: 100%;
+	height: 250px;
+	padding: 0px 0px 0px 0px;
+	border-radius: 14px;
+
+}
+
+.blockA h6{
+	font-size: 20px;
+	font-family: system-ui;
+	color: #d70f64 ;
+	padding: 5px 28px 0px 17px;
+}
+
+
+.blockA p{
+	font-size: 16px;
+	font-family: system-ui;
+	padding: 6px 28px 0px 17px
+}
+
+
+.blockB{
+	background: #d70f64;
+    width: 267px;
+    height: 179px;
+    margin-left: 859px;
+    margin-top: 12px;
+    border-radius: 19px;
+    padding:10px 0px 0px 10px;
+}
+
+.blockB p{
+	font-size: 18px;
+	font-family: system-ui;
+	color: white;
+	margin: 5px 5px 5px 5px;
+}
+
+.blockB button{
+    width: 213px;
+    height: 36px;
+    border: none;
+    border-radius: 5px;
+    margin: 39px 0px 0px 0px;
+}
+
+.logo {
+	background: white;
+	width: 100%;
+	height: 140px;
+	display: flex;
+	justify-content: space-between;
+	align-items:center ;
+    width: 100%px;
+    height: 150px;
+    padding: 0px 80px 0px 87px;
+/*    border: 2px solid darkred;*/
+    
+}
+.logoimg{
+	width: 160px;
+	height: 45px;
+}
+
+.bottom{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0px 71px 0px 81px;
+    margin: -55px 5px;
+}
+
+.bottom a{
+	margin: 0px 5px;
+	font-size: 14px;
+	text-decoration: none;
+	color: black;
+}

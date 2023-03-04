@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<style>
+		.a{
+			height: 200px;
+			width:250px ;
+			border: 2px solid black;
+			position: absolute;
+		}
+		.one{
+			background: darkred;
+			z-index: 4;
+		}
+
+		.two{
+			background: blue;
+			z-index: 3;
+			left: 40px;
+			top: 30px;
+		}
+
+		.three{
+			background: green;
+			z-index: 2;
+			left: 80px;
+			top: 60px;
+    	}
+
+    	.four{
+    		background: lightblue;
+			z-index: 1;
+			left: 120px;
+			top: 90px;
+        }
+
+        .five{
+        	background: lightpink;
+			z-index: 0;
+			left: 160px;
+			top: 120px;
+        }
+
+		
+	</style>
+</head>
+<body>
+
+	<div class="a one">0</div>
+	<div class="a two">1</div>
+	<div class="a three">2</div>
+	<div class="a four">3</div>
+	<div class="a five">4</div>
+
+</body>
+</html>
